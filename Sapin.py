@@ -17,6 +17,7 @@ class Sapin:
 
     def ajouter(self,deco):
         self._listedeco.append(deco)
+        print("")
         self._masseTotale+=Decoration.getMasseDeco(deco)
     def supprimer(self,deco):
         self._listedeco.remove(deco)
